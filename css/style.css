@@ -1,0 +1,88 @@
+/*https://www.dafont.com/counter-strike.font*/
+@font-face {
+    font-family: CounterStrike;
+    src: url(/fonts/cs_regular.ttf);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-family: CounterStrike;
+}
+
+body {
+    background-image: url("https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_bg.svg");
+    padding: 30px;
+    line-height: 1.1;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.topo {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: CounterStrike;
+}
+
+.topo a {
+    text-decoration: none;
+    color: black;
+}
+.meio {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.meio2 {
+    font-size: 25px;
+    font-family: CounterStrike;
+}
+
+.meio2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.meio3 {
+    text-align: justify;
+    font-size: 20px;
+    width: 60%;
+
+}
+
+.imagem {
+    position: absolute;
+    height: 50%;
+}
+  
+li a {
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .fim p {
+    text-align: right;
+    font-size: 30px;
+    font-family: CounterStrike;
+
+  }
+
+  .fim a {
+    color: black;
+    position: absolute;
+    text-align: right;
+    right: 348px;
+    font-size: 50px;
+    text-decoration: none;
+  }
+
+  .fim img {
+    position: absolute;
+    text-align: right;
+    right: 400px;
+  }
